@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    height: 100vh;
+    background: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(2px 4px 6px black);
+ 
+}
+nav{
+    padding: 0rem 6rem;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background: #163436;
+   color: white;
+  
+}
+ul{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}
+nav>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+   
+}
+
+.btn{
+    background-color: #10C98F;
+    color: #fff;
+    height: 3rem;
+    border: none;
+    width: 10rem;
+}
+.btnav{
+    display: flex;
+    justify-content: end;
+}
+main{
+    padding-top: 5rem;
+    display: flex;
+    height: 100vh;
+}
+.box1{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+   color: #fff;
+   margin-left: 6rem;
+}
+.box2{
+    margin-left: 6rem;
+    display: flex;
+    flex: 1;
+}
+.servicebtn{
+    margin-top: 1rem;
+   background: transparent;
+   border: none;
+   border: 2px solid white;
+    color: #fff;
+    height: 4.5rem;
+    width: 14rem;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+div>span{
+    font-size: 70px;
+    font-weight: 800;
+
+}
+hr{
+    margin: 0.8rem 0;
+    width: 9rem;
+    height: 0.2rem;
+    background: white;
+}
+div>p{
+    font-size: 30px;
+    padding-bottom: 0.8rem;
+}
